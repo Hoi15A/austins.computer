@@ -25,19 +25,16 @@ img {
 }
 
 /* Custom */
-html, body, .flex-container {
-  height: 100%;
-}
-
 .flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 main {
-  flex-direction: row;
+  max-width: 500px;
 }
 
 h1 {
@@ -73,10 +70,6 @@ a:hover .nf  {
 
 .no-underline {
   text-decoration: none;
-}
-
-.project-desc {
-  white-space: pre-line;
 }
 
 /* Colours */
