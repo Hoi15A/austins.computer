@@ -1,0 +1,153 @@
+/* RESET */
+html {
+  box-sizing: border-box;
+  font-family: 'Zilla Slab', serif;
+  font-size: 24px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom */
+html, body, .flex-container {
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  flex-direction: row;
+}
+
+h1 {
+  font-family: 'Zilla Slab Highlight', serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Zilla Slab Highlight', serif;
+  font-size: 42px;
+}
+
+h3 {
+  font-family: 'Zilla Slab Highlight', serif;
+  font-size: 36px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #4b7af2;
+}
+
+a:hover .nf  {
+  color: #95add9;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.project-desc {
+  white-space: pre-line;
+}
+
+/* Colours */
+.nf-md-discord {
+  color: #5165f6;
+}
+
+.nf-custom-kotlin {
+  color: #7f52ff;
+}
+
+.nf-dev-java {
+  color: #e76e00;
+}
+
+.nf-md-language_javascript {
+  color: #f8dc3d;
+}
+
+.nf-md-language_typescript {
+  color: #2d79c7;
+}
+
+.nf-dev-python {
+  color: #3778ae;
+}
+
+.nf-seti-spring {
+  color: #6db33f;
+}
+
+.nf-fa-paper_plane {
+  color: #444444;
+}
+
+.nf-dev-react {
+  color: #80d8f7;
+}
+
+.nf-seti-vue {
+  color: #41b883;
+}
+
+.nf-dev-git {
+  color: #de4c36;
+}
+
+.nf-fa-githb {
+  color: #000;
+}
+
+.nf-cod-azure_devops {
+  color: #0078d4;
+}
+
+.nf-seti-gradle {
+  color: #02303a;
+}
+
+.nf-md-docker {
+  color: #2496ed;
+}
+
+.nf-md-arch {
+  color: #1793d1;
+}
+
+.nf-md-debian {
+  color: #d70651;
+}
+
+.nf-md-ubuntu {
+  color: #de4815;
+}
